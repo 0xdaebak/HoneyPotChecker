@@ -15,6 +15,7 @@ It is a smart contract on bsc. You can check if token contract is honeypot or no
 ## HOW TO USE
 - Always use callstatic or eth_call to perform the operation because if you don't then you might loose some fund because we want to simulate the buy and sell so static call will just simulate the transaction and return the result without changing any state.
 - Make sure you have some funds in your wallet to perform the operation.
+- Use try & catch to make sure you won't mess your project runtime.
 
 ```javascript
 ROUTER = DEX ROUTER ADDRESS
