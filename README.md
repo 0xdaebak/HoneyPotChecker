@@ -71,6 +71,7 @@ sellGas = gas required to sell the token
 - Try this at your own risk. I'm not responsible if you lost your funds. This contract checks only the current state.
 - Nothing is perfect. This repo is constantly under development.
 - Contract does not hold any token or balance.
+- I'm not an expert. I'm always learning and improving myself so if you find any bugs, problems or issues then feel free to contact me.
 
 ## Authors
 
