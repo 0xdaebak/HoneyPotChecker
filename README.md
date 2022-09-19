@@ -1,6 +1,10 @@
 
 # 🩺 HoneyPotChecker
 
+
+![](https://img.shields.io/badge/solidity-v1.0.0-green?style=for-the-badge) ![](https://img.shields.io/badge/0xdaebak-alphaLeaks-red?style=for-the-badge)
+
+
 #🥇1st Time On Internet
 
 Complete Open Source HoneyPot Checker For BSC
@@ -78,6 +82,6 @@ sellGas = gas required to sell the token
 - [@0xdaebak](https://www.github.com/0xdaebak)
 
 
-## Badges
+## License
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+![MIT License](https://img.shields.io/github/license/0xdaebak/solselector?style=for-the-badge)
