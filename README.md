@@ -26,7 +26,7 @@ ROUTER = DEX ROUTER ADDRESS
 BASE = EX. WBNB, USDT, BUSD
 TOKEN = TOKEN CONTRACT ADDRESS
 
- _.callstatic.isHoneyPot(ROUTER,BASE,TOKEN, {
+ _.callStatic.isHoneyPot(ROUTER,BASE,TOKEN, {
         value: AMOUNT
 });
 
@@ -52,7 +52,7 @@ RESPONSE =
   sellGas: BigNumber { _hex: '0x067d50', _isBigNumber: true }
 ]
 
-let buyTax = Math.round(((parseInt(RESPONSE.estimatedBuy) - parseInt(RESPONSE.buyAmount)) / parseInt(RESPONSE.estimatedbuy)) * 100);
+let buyTax = Math.round(((parseInt(RESPONSE.estimatedBuy) - parseInt(RESPONSE.buyAmount)) / parseInt(RESPONSE.estimatedBuy)) * 100);
 let sellTax = Math.round(((parseInt(RESPONSE.estimatedSell) - parseInt(RESPONSE.sellAmount)) / parseInt(RESPONSE.estimatedSell)) * 100);
         
 //RESPONSE BREAKDOWN 
